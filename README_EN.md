@@ -1,6 +1,6 @@
 # vtb.skill
 
-`vtb.skill` is a repo framework for turning public VTuber material into installable, maintainable `.skill` packages.
+This repo is for turning a VTuber you care about into a real `.skill` you can install, maintain, and keep enriching over time.
 
 <table>
   <tr>
@@ -16,6 +16,24 @@
     </td>
   </tr>
 </table>
+
+VTubers are often remembered through scattered public traces: a dynamic post, a clip, a stream archive, a room description, a few lines people quote again and again.
+
+By the time you seriously want to preserve someone well, their public material is already spread across platforms, and the parts that matter most, cadence, tone, recurring habits, the feel of how they speak, are easy to flatten into cliché.
+
+That is why building a VTuber `.skill` should be more than writing a few lines of imitation. It should be a careful, source-grounded repo you can revisit and keep maintaining.
+
+Most people do not get stuck on “write one line that sounds like them”.
+
+They get stuck on everything around it:
+
+- finding public sources and verifying them
+- collecting profiles, dynamics, live-room info, and video pages together
+- deciding which public videos are worth transcribing
+- separating stable persona structure from catchphrases and recurring bits
+- turning all of that into a repo someone can actually install and maintain
+
+That is the part `vtb.skill` is built for.
 
 It focuses on:
 
