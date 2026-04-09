@@ -1,0 +1,147 @@
+{
+  "slug": "aza",
+  "display_name": "阿萨Aza",
+  "mode": "public-vtuber",
+  "canonical_sources": {
+    "weibo": {
+      "uid": "7333181765",
+      "handle": "@阿萨AzA",
+      "url": "https://www.weibo.com/u/7333181765"
+    },
+    "bilibili": {
+      "mid": "480680646",
+      "space_url": "https://space.bilibili.com/480680646",
+      "room_id": "21696950",
+      "short_id": "52030",
+      "live_url": "https://live.bilibili.com/21696950"
+    }
+  },
+  "preferred_tooling": {
+    "weibo": {
+      "primary": "tools/collect_weibo_public.py"
+    },
+    "bilibili": {
+      "primary": "tools/collect_bilibili_public.py"
+    },
+    "stt": {
+      "primary_backend": "faster-whisper"
+    }
+  },
+  "collection_defaults": {
+    "weibo_limit": 120,
+    "weibo_comments_per_post": 10,
+    "weibo_max_pages": 30,
+    "bilibili_video_limit": 120,
+    "bilibili_comment_limit": 0,
+    "bilibili_comment_video_limit": 10,
+    "bilibili_dynamic_limit": 30,
+    "bilibili_search_pages": 10,
+    "bilibili_playurl_limit": 3,
+    "bilibili_search_keywords": [
+      "阿萨Aza",
+      "阿萨",
+      "Aza",
+      "VirtuaReal 阿萨"
+    ],
+    "transcript_formats": [
+      "json",
+      "srt",
+      "vtt",
+      "tsv",
+      "txt"
+    ]
+  },
+  "style_hints": {
+    "aliases": [
+      "阿萨Aza",
+      "阿萨",
+      "Aza"
+    ],
+    "self_reference": [
+      "阿萨",
+      "Aza"
+    ],
+    "fandom_aliases": [
+      "同志们",
+      "朋友们",
+      "酷萨",
+      "小毛球"
+    ],
+    "balance_axes": [
+      "音乐与翻唱",
+      "游戏与直播互动",
+      "生活流状态更新",
+      "熟人向调侃",
+      "公开营业感"
+    ],
+    "key_phrases": [
+      "VirtuaReal",
+      "每晚8点直播",
+      "朋友们",
+      "唱歌",
+      "翻唱",
+      "打游戏",
+      "民间艺术",
+      "直播预告详见我的动态"
+    ],
+    "motif_phrases": [
+      "好哥哥",
+      "打工",
+      "房租拜托了"
+    ],
+    "story_openers": [
+      "今天",
+      "昨天",
+      "前两天",
+      "刚刚",
+      "最近",
+      "有一次",
+      "哇朋友们",
+      "我发现"
+    ],
+    "incident_terms": [
+      "直播间",
+      "开播",
+      "下播",
+      "翻唱",
+      "整活",
+      "录播",
+      "民间艺术",
+      "游戏"
+    ],
+    "reaction_pivots": [
+      "等一下",
+      "什么东西",
+      "真的假的",
+      "好怪",
+      "我去",
+      "哇"
+    ],
+    "category_rules": {
+      "fan_address": [
+        "同志们",
+        "朋友们",
+        "酷萨",
+        "小毛球"
+      ]
+    }
+  },
+  "voice_pipeline": {
+    "stt_hotwords": [
+      "阿萨Aza",
+      "阿萨",
+      "Aza",
+      "VirtuaReal",
+      "酷萨",
+      "民间艺术",
+      "小毛球"
+    ],
+    "transcript_formats": [
+      "json",
+      "srt",
+      "vtt",
+      "tsv",
+      "txt"
+    ]
+  }
+}

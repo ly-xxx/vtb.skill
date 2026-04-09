@@ -1,0 +1,130 @@
+{
+  "slug": "mocha",
+  "display_name": "墨茶Official",
+  "mode": "public-vtuber",
+  "canonical_sources": {
+    "weibo": {},
+    "bilibili": {
+      "mid": "212535360",
+      "space_url": "https://space.bilibili.com/212535360",
+      "room_id": "21849412",
+      "short_id": "0",
+      "live_url": "https://live.bilibili.com/21849412"
+    }
+  },
+  "preferred_tooling": {
+    "weibo": {
+      "primary": "not configured"
+    },
+    "bilibili": {
+      "primary": "tools/collect_bilibili_public.py"
+    },
+    "stt": {
+      "primary_backend": "faster-whisper"
+    }
+  },
+  "collection_defaults": {
+    "weibo_limit": 0,
+    "weibo_comments_per_post": 0,
+    "weibo_max_pages": 0,
+    "bilibili_video_limit": 120,
+    "bilibili_comment_limit": 0,
+    "bilibili_comment_video_limit": 20,
+    "bilibili_dynamic_limit": 120,
+    "bilibili_search_pages": 12,
+    "bilibili_playurl_limit": 4,
+    "bilibili_search_keywords": [
+      "墨茶Official",
+      "墨茶official",
+      "墨茶"
+    ],
+    "transcript_formats": [
+      "json",
+      "srt",
+      "vtt",
+      "tsv",
+      "txt"
+    ]
+  },
+  "style_hints": {
+    "aliases": [
+      "墨茶Official",
+      "墨茶"
+    ],
+    "self_reference": [
+      "墨茶",
+      "茶叶成精"
+    ],
+    "fandom_aliases": [],
+    "balance_axes": [
+      "游戏向直播",
+      "短状态播报",
+      "具体生活困窘 / 饮食欲望短句",
+      "轻度自嘲与冷幽默",
+      "文艺 / 中二命名点缀",
+      "克制表达"
+    ],
+    "key_phrases": [
+      "我是茶叶成精",
+      "随缘播游戏",
+      "恢复直播",
+      "直播剪辑",
+      "我老想吃草莓了",
+      "吃什么吐什么",
+      "我从小到大都没有在冬至吃过饺子"
+    ],
+    "motif_phrases": [
+      "品茶",
+      "回忆录",
+      "草莓",
+      "饺子",
+      "病床"
+    ],
+    "story_openers": [
+      "然而",
+      "今天",
+      "今晚",
+      "明天",
+      "昨天",
+      "刚刚",
+      "终于",
+      "大晚上的"
+    ],
+    "incident_terms": [
+      "游戏",
+      "直播",
+      "开播",
+      "恢复直播",
+      "麦克风",
+      "设备",
+      "病床",
+      "草莓",
+      "饺子",
+      "吐"
+    ],
+    "reaction_pivots": [
+      "这打不到哦",
+      "谁敢信",
+      "那确实",
+      "好吧",
+      "令人感叹"
+    ],
+    "category_rules": {}
+  },
+  "voice_pipeline": {
+    "stt_hotwords": [
+      "墨茶Official",
+      "墨茶",
+      "茶叶成精",
+      "草莓",
+      "饺子"
+    ],
+    "transcript_formats": [
+      "json",
+      "srt",
+      "vtt",
+      "tsv",
+      "txt"
+    ]
+  }
+}

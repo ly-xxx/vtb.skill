@@ -1,0 +1,65 @@
+{
+  "audit_json": "/home/lyx/skill/vtb.skill/examples/aza.skill/sources/processed/transcript-audit.json",
+  "selection_mode": "best_by_bvid",
+  "min_usability": "medium",
+  "min_chars": 6,
+  "min_cjk_ratio": 0.35,
+  "train_ready": {
+    "path": "/home/lyx/skill/vtb.skill/examples/aza.skill/sources/processed/training/transcript_train_ready.jsonl",
+    "records": 88,
+    "usability_counts": {
+      "high": 88
+    },
+    "bvid_count": 2,
+    "model_counts": {
+      "small": 88
+    },
+    "skipped_segment_reasons": {
+      "too_short": 42,
+      "low_cjk_ratio": 3
+    }
+  },
+  "high_only": {
+    "path": "/home/lyx/skill/vtb.skill/examples/aza.skill/sources/processed/training/transcript_train_high.jsonl",
+    "records": 110,
+    "usability_counts": {
+      "high": 110
+    },
+    "bvid_count": 2,
+    "model_counts": {
+      "small": 110
+    },
+    "skipped_segment_reasons": {
+      "too_short": 22,
+      "low_cjk_ratio": 1
+    }
+  },
+  "recommended_large_v3": {
+    "path": "/home/lyx/skill/vtb.skill/examples/aza.skill/sources/processed/training/transcript_train_recommended.jsonl",
+    "min_quality_score": 55.0,
+    "records": 0,
+    "usability_counts": {},
+    "bvid_count": 0,
+    "model_counts": {},
+    "skipped_segment_reasons": {}
+  },
+  "selected_transcripts_tsv": "/home/lyx/skill/vtb.skill/examples/aza.skill/sources/processed/training/selected_transcripts.tsv",
+  "selected_bvids": [
+    {
+      "bvid": "BV1C4SDB6EqQ",
+      "title": "【洛克王国世界】全都抓了！",
+      "model": "small",
+      "quality_score": 97.37,
+      "usability": "high",
+      "path": "/home/lyx/skill/vtb.skill/examples/aza.skill/sources/transcripts/bilibili_batch/BV1C4SDB6EqQ 【洛克王国世界】全都抓了！.json"
+    },
+    {
+      "bvid": "BV1yJ411Q73u",
+      "title": "【Vup阿萨】你好，初次见面，我是你的好哥哥阿萨",
+      "model": "small",
+      "quality_score": 74.49,
+      "usability": "high",
+      "path": "/home/lyx/skill/vtb.skill/examples/aza.skill/sources/transcripts/bilibili_batch/BV1yJ411Q73u 【Vup阿萨】你好，初次见面，我是你的好哥哥阿萨.json"
+    }
+  ]
+}

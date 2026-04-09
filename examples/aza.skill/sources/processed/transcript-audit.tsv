@@ -1,0 +1,3 @@
+usability	quality_score	bvid	title	model	vad_filter	segment_count	char_count	cjk_ratio	unique_segment_ratio	top_repeat_ratio	chars_per_minute	path
+high	97.37	BV1C4SDB6EqQ	【洛克王国世界】全都抓了！	small	True	103	819	0.9646	0.9417	0.0291	207.54	/home/lyx/skill/vtb.skill/examples/aza.skill/sources/transcripts/bilibili_batch/BV1C4SDB6EqQ 【洛克王国世界】全都抓了！.json
+high	74.49	BV1yJ411Q73u	【Vup阿萨】你好，初次见面，我是你的好哥哥阿萨	small	True	30	325	0.8462	1.00	0.0333	155.19	/home/lyx/skill/vtb.skill/examples/aza.skill/sources/transcripts/bilibili_batch/BV1yJ411Q73u 【Vup阿萨】你好，初次见面，我是你的好哥哥阿萨.json

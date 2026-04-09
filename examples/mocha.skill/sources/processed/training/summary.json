@@ -1,0 +1,57 @@
+{
+  "audit_json": "sources/processed/transcript-audit.json",
+  "selection_mode": "best_by_bvid",
+  "min_usability": "medium",
+  "min_chars": 6,
+  "min_cjk_ratio": 0.35,
+  "train_ready": {
+    "path": "sources/processed/training/transcript_train_ready.jsonl",
+    "records": 15,
+    "usability_counts": {
+      "medium": 15
+    },
+    "bvid_count": 2,
+    "model_counts": {
+      "small": 15
+    },
+    "skipped_segment_reasons": {
+      "too_short": 15
+    }
+  },
+  "high_only": {
+    "path": "sources/processed/training/transcript_train_high.jsonl",
+    "records": 0,
+    "usability_counts": {},
+    "bvid_count": 0,
+    "model_counts": {},
+    "skipped_segment_reasons": {}
+  },
+  "recommended_large_v3": {
+    "path": "sources/processed/training/transcript_train_recommended.jsonl",
+    "min_quality_score": 55.0,
+    "records": 0,
+    "usability_counts": {},
+    "bvid_count": 0,
+    "model_counts": {},
+    "skipped_segment_reasons": {}
+  },
+  "selected_transcripts_tsv": "sources/processed/training/selected_transcripts.tsv",
+  "selected_bvids": [
+    {
+      "bvid": "BV14f4y1B7yE",
+      "title": "我的一战回忆录",
+      "model": "small",
+      "quality_score": 58.12,
+      "usability": "medium",
+      "path": "sources/transcripts/bilibili_batch/BV14f4y1B7yE 我的一战回忆录.json"
+    },
+    {
+      "bvid": "BV1ft4y1m7cV",
+      "title": "【直播剪辑】我的西线回忆录",
+      "model": "small",
+      "quality_score": 44.3,
+      "usability": "medium",
+      "path": "sources/transcripts/bilibili_batch/BV1ft4y1m7cV 【直播剪辑】我的西线回忆录.json"
+    }
+  ]
+}

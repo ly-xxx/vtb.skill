@@ -1,0 +1,3 @@
+usability	quality_score	bvid	title	model	segment_count	char_count	path
+high	97.37	BV1C4SDB6EqQ	【洛克王国世界】全都抓了！	small	103	819	/home/lyx/skill/vtb.skill/examples/aza.skill/sources/transcripts/bilibili_batch/BV1C4SDB6EqQ 【洛克王国世界】全都抓了！.json
+high	74.49	BV1yJ411Q73u	【Vup阿萨】你好，初次见面，我是你的好哥哥阿萨	small	30	325	/home/lyx/skill/vtb.skill/examples/aza.skill/sources/transcripts/bilibili_batch/BV1yJ411Q73u 【Vup阿萨】你好，初次见面，我是你的好哥哥阿萨.json

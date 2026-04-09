@@ -1,0 +1,79 @@
+{
+  "slug": "example-vtuber",
+  "display_name": "示例角色",
+  "mode": "public-vtuber",
+  "canonical_sources": {
+    "weibo": {
+      "uid": "",
+      "domain": "",
+      "url": ""
+    },
+    "bilibili": {
+      "mid": "",
+      "space_url": "",
+      "room_id": "",
+      "short_id": "",
+      "live_url": ""
+    }
+  },
+  "preferred_tooling": {
+    "weibo": {
+      "primary": "tools/collect_weibo_public.py"
+    },
+    "bilibili": {
+      "primary": "tools/collect_bilibili_public.py"
+    },
+    "stt": {
+      "primary_backend": "faster-whisper"
+    }
+  },
+  "collection_defaults": {
+    "weibo_limit": 1000,
+    "weibo_comments_per_post": 10,
+    "weibo_max_pages": 120,
+    "bilibili_video_limit": 180,
+    "bilibili_comment_limit": 0,
+    "bilibili_comment_video_limit": 20,
+    "bilibili_dynamic_limit": 200,
+    "bilibili_search_pages": 12,
+    "bilibili_playurl_limit": 6,
+    "bilibili_search_keywords": [
+      "示例角色"
+    ],
+    "transcript_formats": [
+      "json",
+      "srt",
+      "vtt",
+      "tsv",
+      "txt"
+    ]
+  },
+  "style_hints": {
+    "aliases": [
+      "示例角色"
+    ],
+    "self_reference": [
+      "示例角色"
+    ],
+    "fandom_aliases": [],
+    "balance_axes": [],
+    "key_phrases": [],
+    "motif_phrases": [],
+    "story_openers": [],
+    "incident_terms": [],
+    "reaction_pivots": [],
+    "category_rules": {}
+  },
+  "voice_pipeline": {
+    "stt_hotwords": [
+      "示例角色"
+    ],
+    "transcript_formats": [
+      "json",
+      "srt",
+      "vtt",
+      "tsv",
+      "txt"
+    ]
+  }
+}

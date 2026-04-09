@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-04-09T12:29:25.721438+00:00",
+  "target": "/home/lyx/skill/mocha.skill/sources/targets/mocha.json",
+  "input_jsonl": "sources/processed/training/transcript_train_ready.jsonl",
+  "requested_input_jsonl": "sources/processed/training/transcript_train_recommended.jsonl",
+  "tried_inputs": [
+    "sources/processed/training/transcript_train_recommended.jsonl",
+    "sources/processed/training/transcript_train_high.jsonl",
+    "sources/processed/training/transcript_train_ready.jsonl"
+  ],
+  "category_counts": {
+    "self_reference": 3,
+    "fan_address": 1,
+    "incident_broadcast": 1,
+    "reaction_pivots": 3
+  },
+  "examples": {
+    "self_reference": [
+      {
+        "text": "你告诉我 这个剧里面打不到哦",
+        "bvid": "BV14f4y1B7yE",
+        "title": "我的一战回忆录",
+        "quality_score": 58.12,
+        "char_count": 13,
+        "score": 63.57,
+        "source_json": "sources/transcripts/bilibili_batch/BV14f4y1B7yE 我的一战回忆录.json",
+        "start": 69.76,
+        "end": 71.86
+      },
+      {
+        "text": "我觉得他应该是十星的",
+        "bvid": "BV14f4y1B7yE",
+        "title": "我的一战回忆录",
+        "quality_score": 58.12,
+        "char_count": 10,
+        "score": 62.91,
+        "source_json": "sources/transcripts/bilibili_batch/BV14f4y1B7yE 我的一战回忆录.json",
+        "start": 214.36,
+        "end": 216.16
+      },
+      {
+        "text": "我感觉这他就是大",
+        "bvid": "BV14f4y1B7yE",
+        "title": "我的一战回忆录",
+        "quality_score": 58.12,
+        "char_count": 8,
+        "score": 62.46,
+        "source_json": "sources/transcripts/bilibili_batch/BV14f4y1B7yE 我的一战回忆录.json",
+        "start": 203.5,
+        "end": 204.86
+      }
+    ],
+    "fan_address": [
+      {
+        "text": "脸上站着个人 你们看不见吗",
+        "bvid": "BV14f4y1B7yE",
+        "title": "我的一战回忆录",
+        "quality_score": 58.12,
+        "char_count": 12,
+        "score": 63.35,
+        "source_json": "sources/transcripts/bilibili_batch/BV14f4y1B7yE 我的一战回忆录.json",
+        "start": 99.76,
+        "end": 101.8
+      }
+    ],
+    "incident_broadcast": [
+      {
+        "text": "欢迎到格树士进入直播间",
+        "bvid": "BV14f4y1B7yE",
+        "title": "我的一战回忆录",
+        "quality_score": 58.12,
+        "char_count": 11,
+        "score": 63.13,
+        "source_json": "sources/transcripts/bilibili_batch/BV14f4y1B7yE 我的一战回忆录.json",
+        "start": 67.32,
+        "end": 69.76
+      }
+    ],
+    "reaction_pivots": [
+      {
+        "text": "这居然还躲着一个 谁敢信",
+        "bvid": "BV14f4y1B7yE",
+        "title": "我的一战回忆录",
+        "quality_score": 58.12,
+        "char_count": 11,
+        "score": 63.13,
+        "source_json": "sources/transcripts/bilibili_batch/BV14f4y1B7yE 我的一战回忆录.json",
+        "start": 159.73,
+        "end": 162.07
+      },
+      {
+        "text": "他不是炮弹 他应该就是",
+        "bvid": "BV14f4y1B7yE",
+        "title": "我的一战回忆录",
+        "quality_score": 58.12,
+        "char_count": 10,
+        "score": 62.91,
+        "source_json": "sources/transcripts/bilibili_batch/BV14f4y1B7yE 我的一战回忆录.json",
+        "start": 205.26,
+        "end": 206.92
+      },
+      {
+        "text": "不是不是会爆炸的",
+        "bvid": "BV14f4y1B7yE",
+        "title": "我的一战回忆录",
+        "quality_score": 58.12,
+        "char_count": 8,
+        "score": 62.46,
+        "source_json": "sources/transcripts/bilibili_batch/BV14f4y1B7yE 我的一战回忆录.json",
+        "start": 211.4,
+        "end": 213.04
+      }
+    ]
+  }
+}
