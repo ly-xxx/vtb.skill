@@ -13,21 +13,8 @@
 
 [**English**](README_EN.md)
 
-<div align="center" style="margin-top: -20px; margin-bottom: -20px;">
-  <table align="center" style="border-collapse: collapse; display: table; border: none; margin: 0 auto; padding: 0; border-spacing: 0;">
-    <tr style="border: none; margin: 0; padding: 0;">
-      <td style="border: none; padding: 0; margin: 0; line-height: 0;">
-        <a href="https://github.com/ly-xxx/ace-taffy-skill">
-          <img src="./assets/example-card-taffy.svg" alt="卡片1" width="100%" style="border: none; margin: 0; padding: 0; display: block;" />
-        </a>
-      </td>
-      <td style="border: none; padding: 0; margin: 0; line-height: 0;">
-        <a href="https://github.com/ly-xxx/mocha.skill">
-          <img src="./assets/example-card-mocha.svg" alt="卡片2" width="100%" style="border: none; margin: 0; padding: 0; display: block;" />
-        </a>
-      </td>
-    </tr>
-  </table>
+<div align="center" style="line-height: 0;">
+  <a href="https://github.com/ly-xxx/ace-taffy-skill"><img src="./assets/example-card-taffy.svg" width="45%" style="display: inline-block; margin: 0; border: none;" /></a><a href="https://github.com/ly-xxx/mocha.skill"><img src="./assets/example-card-mocha.svg" width="45%" style="display: inline-block; margin: 0; border: none;" /></a>
 </div>
 
 </div>
